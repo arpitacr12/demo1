@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    font-family: sans-serif;
+    user-select: none;
+  }
+  nav .logo{
+    color: black;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+  }
+  nav{
+    height: 70px;
+    background: BLUE;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: #35444a;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #aab38d;
+    transition: .5s;
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color: #23dbdb;
+  }
+  .image {
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 25px;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+  }
+  .pgp {
+    border-radius: 15px;
+    padding: 10px;
+    margin:20px;
+    background-color: BLACK;
+    text-align: center;
+    color: #222;
+  }
